@@ -14,7 +14,7 @@
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
     <div class="container-fluid">
-        <a class="navbar-brand" href="<?=  BASE_PATH; ?>">CRUD</a>
+        <a class="navbar-brand" href="<?=  BASE_PATH; ?>">starisland</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +34,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                 </li>
-                <?php     if (admin()):           ?>
+                <?php     if (connect()):           ?>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ADMIN</a>
                     <div class="dropdown-menu">
