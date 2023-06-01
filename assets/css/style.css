@@ -7,6 +7,8 @@
 }
 
 body{
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -17,6 +19,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: 80%;
     /*height: auto;
     /*background-size: cover;
     background-repeat: no-repeat;
@@ -36,6 +39,10 @@ figcaption{
     height: 60px;
     top: 50%;
     right: 25%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
 }
 #navFooter img{
     width: 2em;
@@ -62,18 +69,47 @@ figcaption{
     border: solid 1px;
     border-color: black;
     border-radius: 30px;
-    box-shadow: -0.5em 0 .5em olive;
+    height: 30px;
 }
 #navFooter li{
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
 .fontIceland {
     font-family:'Iceland';
     font-size: 4em;
 
 }
+a:hover{
+    cursor: pointer;
+}
+#navFooter ul:hover{
+    box-shadow: -0.5em 0 .5em yellow;
+    transition-duration: 2s;
+}
+#navFooter li:hover{
+    padding: 30px;
+    transition-duration: 2s;
+}
 #navFooter .sizeLogo{
     width: 4em;
+}
+
+/*Version telephone*/
+@media (max-width: 780px) {
+    .fontIceland {
+        font-size: 2.5em;
+    }
+    img{
+        width: 95%;
+    }
+    #navFooter ul{
+        width: 90%;
+    }
+    /*#navFooter ul{
+        flex-direction: column;
+        position: relative;
+    }
+*/
 }
