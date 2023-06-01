@@ -1,0 +1,78 @@
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');*/
+
+@font-face {
+    font-family: 'Iceland';
+    src: url('../font/Iceland-Regular.ttf') format('truetype');
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:black;
+    color:white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+    /*height: auto;
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    /*background-image: url('../img/Perso1-removebg-preview.png');*/
+}
+img{
+    width: 50%;
+}
+figure{
+    position: relative;
+    text-align: center;
+}
+figcaption{
+    position: absolute;
+    z-index: 5;
+    width: 100px;
+    height: 60px;
+    top: 50%;
+    right: 25%;
+}
+#navFooter img{
+    width: 2em;
+}
+#navFooter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#navFooter ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    background-color: black;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 30px;
+}
+#navFooter li{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.fontIceland {
+    font-family:'Iceland';
+    font-size: 6em;
+
+}
+#navFooter .sizeLogo{
+    width: 4em;
+}
