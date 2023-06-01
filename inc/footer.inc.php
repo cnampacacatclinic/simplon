@@ -6,7 +6,7 @@
             <li><a title=""><img alt="logo" src="img/logo_instagram.png"></a></li>
             <li><a title=""><img alt="logo" src="img/logo_facebook.png"></a></li>
             <li><a title=""><img alt="logo" src="img/logo_tick_tock.png"></a></li>
-            <li><a title=""><img alt="logo" src="img/logo_discord_rose.png"></a></li>
+            <li><a title=""><img id="logoDiscord" class="sizeLogo" alt="logo discord" src="img/logo_discord_rose.png"></a></li>
             <li><a title=""><img alt="logo" src="img/logo_twitter.png"></a></li>
             <li><a title=""><img alt="logo" src="img/logo_twitsh.png"></a></li>
             <li><a title=""><img alt="logo" src="img/logo_youtube_2.png"></a></li>

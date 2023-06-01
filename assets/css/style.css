@@ -1,6 +1,3 @@
-
- /* @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');*/
-
 @font-face {
     font-family: 'Iceland';
     src: url('../font/Iceland-Regular.ttf') format('truetype');
@@ -74,7 +71,6 @@ footer{
 #navFooter li{
     padding: 0;
     margin: 0;
-    position: relative;
 }
 .fontIceland {
     font-family:'Iceland';
@@ -95,6 +91,19 @@ a:hover{
 #navFooter .sizeLogo{
     width: 4em;
 }
+/*--------------------------------*/
+/*
+#navFooter li{
+    opacity: 0;
+    position: absolute;
+}
+#navFooter li:hover{
+    padding: 30px;
+    transition-duration: 2s;
+    opacity: 1;
+    position: relative;
+}
+/*---------------------------*/
 
 /*Version telephone*/
 @media (max-width: 780px) {
@@ -106,6 +115,9 @@ a:hover{
     }
     #navFooter ul{
         width: 90%;
+    }
+    #navFooter .sizeLogo{
+        width: 3em;
     }
     /*#navFooter ul{
         flex-direction: column;
