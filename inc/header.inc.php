@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/lux/bootstrap.min.css" integrity="sha512-+TCHrZDlJaieLxYGAxpR5QgMae/jFXNkrc6sxxYsIVuo/28nknKtf9Qv+J2PqqPXj0vtZo9AKW/SMWXe8i/o6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="fontInter">
 
 <header>
 <nav id="navStartIsland" class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
@@ -57,7 +57,7 @@
     </div>
 </nav>
 </header>
-<main class="container">
+<main class="container paddingMarginZero">
     <?php     if (isset($_SESSION['messages']) && !empty($_SESSION['messages'])):           ?>
     <?php     foreach ($_SESSION['messages'] as $type=>$messages):
       ?>

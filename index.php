@@ -11,9 +11,7 @@
 
             }
             ?>
-
-
-
-
+<section class="fontImage1"></section>
+<section class="fontImage2"></section>
 
 <?php     require_once 'inc/footer.inc.php';          ?>

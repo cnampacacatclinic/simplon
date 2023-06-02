@@ -2,8 +2,15 @@
     font-family: 'Iceland';
     src: url('../font/Iceland-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/static/Inter-Medium.ttf') format('truetype');
+}
 
 body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding: 0;
     margin: 0;
     display: flex;
@@ -12,6 +19,47 @@ body{
     background-color:black;
     color:white;
 }
+.paddingMarginZero{
+    margin:0;
+    padding:0;
+}
+.fontInter{
+    font-family: 'Inter', sans-serif;
+}
+.fontImage1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 1980px;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/Wallpaper4_1.png');
+}
+header{
+    height: 107px;
+}
+.fontImage2{
+    display: flex;
+    flex-direction: column;
+    width: 1980px;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/Wallpaper1.png');
+    margin:0;
+    padding:0;
+}
+/*section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/*.fondImage{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}*/
 main{
     display: flex;
     flex-direction: column;
@@ -40,6 +88,8 @@ figcaption{
 footer{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    box-shadow: 0px -10px 5px #000;
 }
 #navFooter img{
     width: 2em;
