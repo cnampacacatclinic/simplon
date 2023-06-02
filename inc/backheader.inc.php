@@ -38,7 +38,8 @@
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?=  BASE_PATH.'back/'; ?>">
             <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
+                <img id="logo2" alt="logo" src="../assets/img/petit_logo.png">
+                <!--<i class="fas fa-laugh-wink"></i>-->
             </div>
             <div class="sidebar-brand-text mx-3">Les Moiss' Admin </sup></div>
         </a>
