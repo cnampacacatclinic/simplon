@@ -22,7 +22,7 @@ main{
     background-repeat: no-repeat;
     /*background-image: url('../img/Perso1-removebg-preview.png');*/
 }
-img{
+#imgPerso {
     width: 50%;
 }
 figure{
@@ -104,13 +104,26 @@ a:hover{
     position: relative;
 }
 /*---------------------------*/
-
-#navStartIsland{
+header, nav {
     background-color: transparent;
-    height:137px;
+}
+#navStartIsland{
+    height:107px;
+}
+#logo{
+    width: 8.5em;
+}
+#favHome img{
+    width: 3em;
+}
+#favHome {
+    padding: 0;
+    padding-right: 40px;
+    padding-left: 100px;
+    margin: 0;
 }
 #menuStarisland{
-    height:107px;
+    height:30px;
     background-color: #212121;
 }
 

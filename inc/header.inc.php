@@ -14,26 +14,24 @@
 
 <header>
 <nav id="navStartIsland" class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
-    <div id="menuStarisland" class="container-fluid">
-        <a class="navbar-brand" href="<?=  BASE_PATH; ?>">starisland</a>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="<?=  BASE_PATH; ?>"><img id="logo" alt="logo" src="assets/img/logo_starisland.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="<?=  BASE_PATH; ?>">Home
+        <div id="menuStartisland" class="collapse navbar-collapse" id="navbarColor01">
+        <a id="favHome" href="<?=  BASE_PATH; ?>"><img alt="Acceuil" src="assets/img/symbole_home_1.png">
                         <span class="visually-hidden">(current)</span>
                     </a>
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallerie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Devenir VIP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Serveur</a>
                 </li>
                 <?php     if (connect()):           ?>
                 <li class="nav-item dropdown">
@@ -53,7 +51,6 @@
             <a href="<?=  BASE_PATH.'?a=dis'; ?>" class="btn btn-primary">Déconnexion</a>
             <?php     else:           ?>
             <a href="<?=  BASE_PATH.'security/login.php'; ?>" class="btn btn-primary">Connexion</a>
-            <a href="<?=  BASE_PATH.'security/register.php'; ?>" class="btn btn-success">Inscription</a>
             <?php        endif;        ?>
 
         </div>
