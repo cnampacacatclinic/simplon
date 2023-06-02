@@ -9,10 +9,19 @@
 </head>
 <body>
     <main>
+        <section id="descritpion">
         <figure>
             <img alt="mec" id="imgPerso" src="assets/img/Perso1-removebg-preview.png">
-            <figcaption id="demo" class="fontIceland"></figcaption>
+            <figcaption id="demo" class="fontIceland"><div id="demo"></div></figcaption>
         </figure>
+        
+            <img id="petitLogo" alt="logo" src="assets/img/petit_logo.png">
+        
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Beatae nam vel assumenda praesentium necessitatibus voluptas, optio reiciendis 
+            quia id cumque eveniet accusantium officia animi sed illum omnis asperiores harum iusto!
+            </p>
+        </section>
     </main>
     <footer>
         <nav id="navFooter">
@@ -28,6 +37,7 @@
         </nav>
     </footer>
     <script>
+
         // Set the date we're counting down to
         var countDownDate = new Date("Jul 1, 2023 00:00:00").getTime();
         
@@ -56,6 +66,8 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
           }
         }, 1000);
+
+    /**/
         </script>
 </body>
 </html>

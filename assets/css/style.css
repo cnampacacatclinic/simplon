@@ -63,27 +63,48 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 80%;
-    /*height: auto;
-    /*background-size: cover;
-    background-repeat: no-repeat;
-    /*background-image: url('../img/Perso1-removebg-preview.png');*/
+    width: 100%;
+    align-items: center;
+  justify-content: space-around;
 }
 #imgPerso {
-    width: 50%;
+    width: 40%;
 }
 figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     position: relative;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 figcaption{
+    margin: 0;
+    padding: 0;
     position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: 60px;
+    z-index: 2;
     top: 50%;
-    right: 25%;
+    right: 1em;
+}
+#petitLogo{
+    position: absolute;
+    z-index: 8;
+    top: 40%;
+}
+#descritpion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#descritpion p{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
 }
 footer{
     display: flex;
@@ -103,6 +124,10 @@ footer{
     align-items: center;
     border-radius: 30px;
 }
+#demo{
+    opacity: 1;
+}
+
 #navFooter ul{
     margin: 0;
     padding: 0;
@@ -124,8 +149,7 @@ footer{
 }
 .fontIceland {
     font-family:'Iceland';
-    font-size: 4em;
-
+    font-size: 9em;
 }
 a:hover{
     cursor: pointer;
@@ -179,7 +203,33 @@ header, nav {
 }
 
 /*Version telephone*/
-@media (max-width: 780px) {
+@media (max-width: 815px) {
+    #descritpion p{
+        font-size: 1em;
+    }
+
+    main{
+     margin-bottom: 100px;
+    }
+    #navFooter{
+        flex-direction: column;
+    }
+    #navFooter ul:hover{
+        box-shadow: none;
+    }
+    #navFooter li:hover{
+        padding: 0;
+    }
+    #navFooter ul{
+        flex-direction: column;
+
+    }
+    #petitLogo{
+        z-index: 8;
+        right: auto;
+        top: 0;
+        width: 5em;
+    }
     .fontIceland {
         font-size: 2.5em;
     }
@@ -190,7 +240,7 @@ header, nav {
         width: 90%;
     }
     #navFooter .sizeLogo{
-        width: 3em;
+        width: 2em;
     }
     /*#navFooter ul{
         flex-direction: column;
