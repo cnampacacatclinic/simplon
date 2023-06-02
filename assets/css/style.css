@@ -105,6 +105,15 @@ a:hover{
 }
 /*---------------------------*/
 
+#navStartIsland{
+    background-color: transparent;
+    height:137px;
+}
+#menuStarisland{
+    height:107px;
+    background-color: #212121;
+}
+
 /*Version telephone*/
 @media (max-width: 780px) {
     .fontIceland {
